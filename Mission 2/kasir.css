@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.cashier, .cart {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Menggunakan flex untuk mengatur lebar fleksibel */
+    margin: 10px; /* Memberikan margin agar tidak terlalu rapat */
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.item img {
+    max-width: 200px;
+}
+
+.add-button {
+    margin : 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Gaya yang telah Anda tentukan sebelumnya */
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decrease {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.increase{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.count {
+    padding: 0 10px;
+}

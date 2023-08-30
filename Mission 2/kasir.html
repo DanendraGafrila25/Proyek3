@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="kasir.css">
+  <title>Cart Example</title>
+</head>
+<body>
+        <div class="cashier">
+            <h1>iCashier</h1>
+            <div class="items">
+            <div class="item" data-item="1">
+                <img src="th.jpeg" alt="Barang 1">
+                <h2>Nama Barang 1</h2>
+                <p>Harga: Rp. 100.000</p>
+                <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+                </div>
+                <button class="add-button">Tambah Barang</button>
+            </div>
+
+            <div class="item" data-item="2">
+                <img src="th.jpeg" alt="Barang 2">
+                <h2>Nama Barang 2</h2>
+                <p>Harga: Rp. 150.000</p>
+                <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+                </div>
+                <button class="add-button">Tambah Barang</button>
+            </div>
+
+            <div class="item" data-item="3">
+                <img src="th.jpeg" alt="Barang 3">
+                <h2>Nama Barang 3</h2>
+                <p>Harga: Rp. 75.000</p>
+                <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+                </div>
+                <button class="add-button">Tambah Barang</button>
+            </div>
+
+            <div class="item" data-item="4">
+                <img src="th.jpeg" alt="Barang 4">
+                <h2>Nama Barang 4</h2>
+                <p>Harga: Rp. 300.000</p>
+                <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+                </div>
+                <button class="add-button">Tambah Barang</button>
+            </div>
+
+            <div class="item" data-item="5">
+                <img src="th.jpeg" alt="Barang 5">
+                <h2>Nama Barang 5</h2>
+                <p>Harga: Rp. 125.000</p>
+                <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+                </div>
+                <button class="add-button">Tambah Barang</button>
+            </div>
+
+                    <div class="item" data-item="6">
+                <img src="th.jpeg" alt="Barang 6">
+                <h2>Nama Barang 6</h2>
+                <p>Harga: Rp. 10.000</p>
+                <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+                </div>
+                <button class="add-button">Tambah Barang</button>
+            </div>
+        <!-- Tambahkan item lain di sini -->
+            </div>
+        <div class="cart">
+        <h2>Keranjang Belanja</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Total: <span id="total-price">Rp. 0</span></p>
+        <p id="tax"> <span id="tax-amount"></span></p>
+        <p id="total-cost"> <span id="total-cost-amount"></span></p>
+        </div>
+  <script src="main.js"></script>
+</body>
+</html>
